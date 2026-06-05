@@ -73,7 +73,7 @@ const vehicles = [
 const b2bCities = [
   {
     name: "Lucknow",
-    image: "/lucknow.png",
+    image: "/lucknow.jpg",
   },
   {
     name: "Varanasi",
@@ -89,7 +89,7 @@ const b2bCities = [
   },
   {
     name: "Chandigarh",
-    image: "/chandigarh.png",
+    image: "/chandigarh.jpg",
   },
   {
     name: "Ayodhya",
@@ -175,7 +175,7 @@ export default function CabsPage() {
                   {/* Subtle vignette gradient */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-60" />
                 </div>
-                
+
                 <div className="p-6 flex-1 flex flex-col justify-between items-center text-center space-y-4 bg-white">
                   <div className="space-y-1.5">
                     <h3 className="font-black font-heading text-neutral-900 text-base md:text-lg tracking-wide leading-snug uppercase group-hover:text-yellow-600 transition-colors duration-200">
