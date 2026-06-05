@@ -51,12 +51,12 @@ const trustCards = [
 ];
 
 const popularServices = [
-  { title: "One Way Cab", icon: <IconCar size={22} />, desc: "Fast, affordable, one-way transfers to any outstation city.", img: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=600&q=80", tag: "Flat Fare" },
-  { title: "Round Trip", icon: <IconRoute size={22} />, desc: "Intercity round trips with comfortable multi-day packages.", img: "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=600&q=80", tag: "Best Value" },
-  { title: "Airport Transfer", icon: <IconPlaneDeparture size={22} />, desc: "Punctual, stress-free airport pick and drop services.", img: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=600&q=80", tag: "24/7 Service" },
-  { title: "Local Rental", icon: <IconBuildingSkyscraper size={22} />, desc: "Sightseeing and hourly local rentals in top Indian metros.", img: "https://images.unsplash.com/photo-1514214246283-d427a95c5d2f?w=600&q=80", tag: "Hourly Rates" },
-  { title: "Taxi Packages", icon: <IconCurrencyRupee size={22} />, desc: "Tailor-made itineraries for pilgrim paths and family tours.", img: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80", tag: "Pilgrim Specials" },
-  { title: "Holiday Packages", icon: <IconGlobe size={22} />, desc: "Premium tour packages with stay, meals, and luxury cabs.", img: "https://images.unsplash.com/photo-1506012787146-f92b2d7d6d96?w=600&q=80", tag: "Curated Tours" },
+  { title: "One Way Cab", icon: <IconCar size={22} />, desc: "Fast, affordable, one-way transfers to any outstation city.", img: "/on-way-cab.jpg", tag: "Flat Fare" },
+  { title: "Round Trip", icon: <IconRoute size={22} />, desc: "Intercity round trips with comfortable multi-day packages.", img: "/round-trip.jpg", tag: "Best Value" },
+  { title: "Airport Transfer", icon: <IconPlaneDeparture size={22} />, desc: "Punctual, stress-free airport pick and drop services.", img: "/airport-transfer.jpg", tag: "24/7 Service" },
+  { title: "Local Rental", icon: <IconBuildingSkyscraper size={22} />, desc: "Sightseeing and hourly local rentals in top Indian metros.", img: "/local-rental.jpg", tag: "Hourly Rates" },
+  { title: "Taxi Packages", icon: <IconCurrencyRupee size={22} />, desc: "Tailor-made itineraries for pilgrim paths and family tours.", img: "/taxi-packages.jpg", tag: "Pilgrim Specials" },
+  { title: "Holiday Packages", icon: <IconGlobe size={22} />, desc: "Premium tour packages with stay, meals, and luxury cabs.", img: "/holiday-packages.jpg", tag: "Curated Tours" },
 ];
 
 const destinations = [
@@ -162,7 +162,7 @@ export default function Home() {
                   {/* Subtle vignette gradient */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-60" />
                 </div>
-                
+
                 <div className="p-6 md:p-8 flex-1 flex flex-col justify-between items-center text-center space-y-5 bg-white">
                   <div className="space-y-2">
                     <span className="text-yellow-600 font-black tracking-widest text-[10px] uppercase block">
@@ -309,9 +309,9 @@ export default function Home() {
           { value: "24/7", label: "Support Desk", icon: <IconHeadset size={20} /> },
         ]}
         images={[
-          "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=600&q=80",
-          "https://images.unsplash.com/photo-1506012787146-f92b2d7d6d96?w=600&q=80",
-          "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=600&q=80",
+          "/on-way-cab.jpg",
+          "/airport-transfer.jpg",
+          "/round-trip.jpg",
         ]}
       />
 

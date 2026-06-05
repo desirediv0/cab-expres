@@ -195,7 +195,7 @@ const HeroSection = ({
             <img src={images[1]} alt="Chauffeur Service" className="h-full w-full rounded-xl object-cover" />
           </motion.div>
           <motion.div
-            className="absolute bottom-0 left-0 h-28 w-28 rounded-2xl bg-neutral-900 p-2.5 shadow-xl sm:h-38 sm:w-38 border border-neutral-800"
+            className="absolute bottom-0 left-1/2 h-28 w-28 rounded-2xl bg-neutral-900 p-2.5 shadow-xl sm:h-38 sm:w-38 border border-neutral-800"
             style={{ transformOrigin: "top right" }}
             variants={imageVariants}
           >

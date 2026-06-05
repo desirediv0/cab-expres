@@ -22,62 +22,62 @@ export const metadata: Metadata = {
 const spiritualDestinations = [
   {
     name: "VARANASI",
-    image: "https://images.unsplash.com/photo-1561361060-61992715d97e?w=800&q=80",
+    image: "/VARANASI.jpg",
     desc: "Experience the divine evening Ganga Aarti on the sacred ghats.",
   },
   {
     name: "VRINDAVAN",
-    image: "https://images.unsplash.com/photo-1628155930542-3c7a64e2c833?w=800&q=80",
+    image: "/VRINDAVAN.jpg",
     desc: "Explore the beautiful temples and eternal devotion of Lord Krishna.",
   },
   {
     name: "MATHURA",
-    image: "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&q=80",
+    image: "/MATHURA.jpg",
     desc: "Visit the holy birthplace of Lord Krishna on the banks of Yamuna.",
   },
   {
     name: "BADRINATH",
-    image: "https://images.unsplash.com/photo-1617653265243-7027999d193c?w=800&q=80",
+    image: "/BADRINATH.jpg",
     desc: "Seek blessings at the divine shrine of Lord Vishnu in the Himalayas.",
   },
   {
     name: "KEDARNATH",
-    image: "https://images.unsplash.com/photo-1609766857685-7b5c9b1cb71d?w=800&q=80",
+    image: "/KEDARNATH.jpg",
     desc: "A sacred journey to the ancient Shiva temple amidst snow peaks.",
   },
   {
     name: "AKSHARDHAM",
-    image: "https://images.unsplash.com/photo-1532375811409-905115e3b55d?w=800&q=80",
+    image: "/AKSHARDHAM.jpg",
     desc: "Witness the magnificent architecture and light show in Delhi.",
   },
   {
     name: "AYODHYA",
-    image: "https://images.unsplash.com/photo-1668593467406-8c0379051a80?w=800&q=80",
+    image: "/AYODHYA.jpg",
     desc: "Experience the historic Ram Janmabhoomi temple and Saryu Aarti.",
   },
   {
     name: "JWALA JI",
-    image: "https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?w=800&q=80",
+    image: "/JWALA JI.webp",
     desc: "Pay homage to the natural holy flames of Goddess Jwalamukhi.",
   },
   {
     name: "PURI",
-    image: "https://images.unsplash.com/photo-1614082242765-7c98ca0f3df3?w=800&q=80",
+    image: "/PURI.jpg",
     desc: "Witness the sacred Rath Yatra and seek blessings of Lord Jagannath.",
   },
   {
     name: "PRAYGRAJ",
-    image: "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?w=800&q=80",
+    image: "/PRAYGRAJ.jpg",
     desc: "Take a holy dip at the confluence of Ganges, Yamuna, and Saraswati.",
   },
   {
     name: "DWARKA SOMNATH",
-    image: "https://images.unsplash.com/photo-1601918774946-25832a4be0d6?w=800&q=80",
+    image: "/DWARKA SOMNATH.jfif",
     desc: "Visit the legendary seashore temple and ancient Dwarka city.",
   },
   {
     name: "UJJAIN",
-    image: "https://images.unsplash.com/photo-1620121692029-d088224ddc74?w=800&q=80",
+    image: "/UJJAIN.jpg",
     desc: "Participate in the famous Bhasma Aarti at the Mahakal shrine.",
   },
 ];
@@ -117,7 +117,7 @@ export default function HolidayPackagesPage() {
       <section className="relative h-[60vh] flex items-center overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat scale-105"
-          style={{ backgroundImage: `url('https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1600&q=80')` }}
+          style={{ backgroundImage: `url('/holiday-packages.jpg')` }}
         />
         <div className="absolute inset-0 bg-black/75" />
 

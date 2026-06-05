@@ -122,7 +122,7 @@ export default function AboutPage() {
             {/* Left Image */}
             <FadeIn className="relative h-[340px] md:h-[460px] rounded-[32px] overflow-hidden shadow-xl">
               <Image
-                src="https://images.unsplash.com/photo-1506012787146-f92b2d7d6d96?w=800&q=80"
+                src="/our-journey.jpg"
                 alt="Our Company Journey"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-700"
