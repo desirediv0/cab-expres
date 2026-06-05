@@ -73,27 +73,27 @@ const vehicles = [
 const b2bCities = [
   {
     name: "Lucknow",
-    image: "https://images.unsplash.com/photo-1605649487212-47bdab064df7?w=600&q=80",
+    image: "/lucknow.png",
   },
   {
     name: "Varanasi",
-    image: "https://images.unsplash.com/photo-1561361060-61992715d97e?w=600&q=80",
+    image: "/VARANASI.jpg",
   },
   {
     name: "Agra",
-    image: "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=600&q=80",
+    image: "/agra.jpg",
   },
   {
     name: "DELHI NCR (NOIDA)",
-    image: "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=600&q=80",
+    image: "/delhi.jpg",
   },
   {
     name: "Chandigarh",
-    image: "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?w=600&q=80",
+    image: "/chandigarh.png",
   },
   {
     name: "Ayodhya",
-    image: "https://images.unsplash.com/photo-1668593467406-8c0379051a80?w=600&q=80",
+    image: "/AYODHYA.jpg",
   },
 ];
 
