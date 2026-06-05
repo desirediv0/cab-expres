@@ -5,6 +5,7 @@ import { Button, buttonVariants } from "@/components/ui/button";
 import { type VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 import React from "react";
+import Image from "next/image";
 
 interface StatProps {
   value: string;
@@ -185,21 +186,27 @@ const HeroSection = ({
             style={{ transformOrigin: "bottom center" }}
             variants={imageVariants}
           >
-            <img src={images[0]} alt="Premium Cabs Fleet" className="h-full w-full rounded-xl object-cover" />
+            <div className="relative h-full w-full rounded-xl overflow-hidden">
+              <Image src={images[0]} alt="Premium Cabs Fleet" fill className="object-cover" sizes="200px" />
+            </div>
           </motion.div>
           <motion.div
             className="absolute right-0 top-1/4 h-32 w-32 rounded-2xl bg-neutral-900 p-2.5 shadow-xl sm:h-44 sm:w-44 border border-neutral-800"
             style={{ transformOrigin: "left center" }}
             variants={imageVariants}
           >
-            <img src={images[1]} alt="Chauffeur Service" className="h-full w-full rounded-xl object-cover" />
+            <div className="relative h-full w-full rounded-xl overflow-hidden">
+              <Image src={images[1]} alt="Chauffeur Service" fill className="object-cover" sizes="176px" />
+            </div>
           </motion.div>
           <motion.div
             className="absolute bottom-0 left-1/2 h-28 w-28 rounded-2xl bg-neutral-900 p-2.5 shadow-xl sm:h-38 sm:w-38 border border-neutral-800"
             style={{ transformOrigin: "top right" }}
             variants={imageVariants}
           >
-            <img src={images[2]} alt="Beautiful Destinations" className="h-full w-full rounded-xl object-cover" />
+            <div className="relative h-full w-full rounded-xl overflow-hidden">
+              <Image src={images[2]} alt="Beautiful Destinations" fill className="object-cover" sizes="152px" />
+            </div>
           </motion.div>
         </motion.div>
       </div>
