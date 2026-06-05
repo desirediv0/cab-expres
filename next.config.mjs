@@ -19,11 +19,8 @@ const nextConfig = {
         pathname: "/**",
       },
     ],
-  },
-  experimental: {
-    serverActions: {
-      allowedOrigins: ["localhost:3000"],
-    },
+    formats: ["image/webp", "image/avif"],
+    minimumCacheTTL: 3600,
   },
 };
 
