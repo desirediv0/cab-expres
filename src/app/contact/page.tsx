@@ -37,14 +37,14 @@ const contactDetails = [
   {
     icon: <IconMail size={28} className="text-yellow-600 group-hover:text-black transition-colors" />,
     title: "Email Queries",
-    details: ["info@cabexpress.com", "support@cabexpress.com"],
-    href: "mailto:info@cabexpress.com",
+    details: ["support@cabexpress.com", "support@cabexpress.com"],
+    href: "mailto:support@cabexpress.com",
     description: "Drop us an email. We reply to all inquiries within 2 hours.",
   },
   {
     icon: <IconMapPin size={28} className="text-yellow-600 group-hover:text-black transition-colors" />,
     title: "Headquarters",
-    details: ["Connaught Place, New Delhi", "Delhi 110001, India"],
+    details: ["Tower 5, 316, Grand Iva", "Signature Global Sector 103, Gurgaon"],
     href: "#",
     description: "Serving all major Indian airports, hill stations, and metros.",
   },
@@ -76,7 +76,7 @@ export default function ContactPage() {
                 Contact CabExpress
               </div>
             </FadeUp>
-            
+
             <FadeUp delay={0.1}>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-black font-heading leading-tight">
                 India&apos;s Dedicated <br />

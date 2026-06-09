@@ -377,7 +377,7 @@ export default function Home() {
               <AccordionItem value="q2" className="bg-white border border-gray-200 rounded-2xl px-6 shadow-sm overflow-hidden">
                 <AccordionTrigger className="text-base py-4 hover:no-underline">How can I contact support?</AccordionTrigger>
                 <AccordionContent>
-                  Our customer service operates 24x7. You can dial +91 96439 02980 or +91 87967 82980 directly, email us at info@cabexpress.com or hit the WhatsApp chat shortcut links.
+                  Our customer service operates 24x7. You can dial +91 96439 02980 or +91 87967 82980 directly, email us at support@cabexpress.com or hit the WhatsApp chat shortcut links.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="q3" className="bg-white border border-gray-200 rounded-2xl px-6 shadow-sm overflow-hidden">

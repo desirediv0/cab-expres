@@ -77,11 +77,11 @@ export function Navbar() {
             </div>
             <div className="flex items-center gap-4">
               <a
-                href="mailto:info@cabexpress.com"
+                href="mailto:support@cabexpress.com"
                 className="flex items-center gap-1.5 hover:text-yellow-600 transition-colors duration-200"
               >
                 <IconMail size={14} className="text-gray-400" />
-                <span>info@cabexpress.com</span>
+                <span>support@cabexpress.com</span>
               </a>
             </div>
           </div>

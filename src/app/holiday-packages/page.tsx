@@ -80,6 +80,16 @@ const spiritualDestinations = [
     image: "/UJJAIN.jpg",
     desc: "Participate in the famous Bhasma Aarti at the Mahakal shrine.",
   },
+  {
+    name: "KHATU SHYAM",
+    image: "/khatu_shyam.png",
+    desc: "Seek blessings at the sacred temple of Veer Barbareek (Lord Krishna).",
+  },
+  {
+    name: "RISHIKESH",
+    image: "/rishikesh.jpg",
+    desc: "Spiritual yoga capital on the banks of the sacred Ganges river.",
+  },
 ];
 
 const b2bPartnershipFeatures = [

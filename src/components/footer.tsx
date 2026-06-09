@@ -161,8 +161,8 @@ export function Footer() {
                 </div>
                 <div>
                   <p className="text-[11px] font-bold text-gray-655 uppercase tracking-wider">Email</p>
-                  <a href="mailto:info@cabexpress.com" className="text-gray-300 hover:text-yellow-400 transition-colors font-semibold">
-                    info@cabexpress.com
+                  <a href="mailto:support@cabexpress.com" className="text-gray-300 hover:text-yellow-400 transition-colors font-semibold">
+                    support@cabexpress.com
                   </a>
                 </div>
               </li>
@@ -172,7 +172,10 @@ export function Footer() {
                 </div>
                 <div>
                   <p className="text-[11px] font-bold text-gray-600 uppercase tracking-wider">Location</p>
-                  <p className="text-gray-300 font-semibold">India</p>
+                  <p className="text-gray-300 font-semibold text-xs leading-relaxed">
+                    Tower 5, 316, Grand Iva<br />
+                    Signature Global Sector 103, Gurgaon
+                  </p>
                 </div>
               </li>
               <li className="flex items-start gap-3 text-gray-400 group">

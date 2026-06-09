@@ -114,13 +114,13 @@ export default function RootLayout({
                   "name": "CabExpress Taxi & Travel Services",
                   "image": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=600&q=80",
                   "telephone": "+919643902980",
-                  "email": "info@cabexpress.com",
+                  "email": "support@cabexpress.com",
                   "address": {
                     "@type": "PostalAddress",
-                    "streetAddress": "Connaught Place",
-                    "addressLocality": "New Delhi",
-                    "addressRegion": "Delhi",
-                    "postalCode": "110001",
+                    "streetAddress": "Tower 5, 316, Grand Iva Signature Global Sector 103",
+                    "addressLocality": "Gurgaon",
+                    "addressRegion": "Haryana",
+                    "postalCode": "122006",
                     "addressCountry": "IN"
                   },
                   "priceRange": "$$",
