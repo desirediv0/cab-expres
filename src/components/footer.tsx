@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import {
   IconPhone,
@@ -49,18 +50,14 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
           {/* Column 1: Brand & Bio */}
           <div className="space-y-6">
-            <Link href="/" className="flex items-center gap-3 group w-fit">
-              <div className="w-11 h-11 rounded-2xl bg-yellow-400 flex items-center justify-center shadow-lg shadow-yellow-400/10 group-hover:scale-105 transition-transform duration-300">
-                <IconCar size={24} className="text-black" />
-              </div>
-              <div className="flex flex-col">
-                <span className="text-2xl font-extrabold text-white tracking-tight leading-none">
-                  Cab<span className="text-yellow-400">Express</span>
-                </span>
-                <span className="text-[10px] font-bold text-gray-500 tracking-widest uppercase mt-0.5 leading-none">
-                  Luxury Travel
-                </span>
-              </div>
+            <Link href="/" className="flex items-center gap-3 group w-fit bg-white px-3 py-1.5 rounded-lg">
+              <Image
+                src="/logo.png"
+                alt="CabExpress Logo"
+                width={160}
+                height={48}
+                className="h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+              />
             </Link>
             <p className="text-gray-450 text-sm leading-relaxed max-w-sm font-medium">
               CabExpress is your trusted travel partner for outstation cabs,

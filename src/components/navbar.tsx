@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -99,17 +100,14 @@ export function Navbar() {
           <div className="container mx-auto px-4 flex justify-between items-center">
             {/* Premium Logo Area */}
             <Link href="/" className="flex items-center gap-3 group">
-              <div className="w-11 h-11 rounded-2xl bg-yellow-400 flex items-center justify-center shadow-lg shadow-yellow-400/20 group-hover:shadow-yellow-400/40 transition-all duration-300 group-hover:scale-[1.03]">
-                <IconCar size={24} className="text-black" />
-              </div>
-              <div className="flex flex-col">
-                <span className="text-2xl font-extrabold text-black font-heading tracking-tight leading-none">
-                  Cab<span className="text-yellow-500">Express</span>
-                </span>
-                <span className="text-[10px] font-bold text-gray-400 tracking-widest uppercase mt-0.5 leading-none">
-                  Luxury Travel
-                </span>
-              </div>
+              <Image
+                src="/logo.png"
+                alt="CabExpress Logo"
+                width={160}
+                height={48}
+                className="h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-[1.03]"
+                priority
+              />
             </Link>
 
             {/* Desktop Navigation Center */}
@@ -202,14 +200,15 @@ export function Navbar() {
             >
               <div>
                 <div className="flex justify-between items-center pb-6 border-b border-gray-100 mb-6">
-                  <div className="flex items-center gap-2">
-                    <div className="w-8 h-8 rounded-lg bg-yellow-400 flex items-center justify-center">
-                      <IconCar size={18} className="text-black" />
-                    </div>
-                    <span className="font-extrabold text-lg text-black font-heading">
-                      Cab<span className="text-yellow-500">Express</span>
-                    </span>
-                  </div>
+                  <Link href="/" className="flex items-center gap-2" onClick={() => setIsOpen(false)}>
+                    <Image
+                      src="/logo.png"
+                      alt="CabExpress Logo"
+                      width={120}
+                      height={36}
+                      className="h-8 w-auto object-contain"
+                    />
+                  </Link>
                   <button
                     onClick={() => setIsOpen(false)}
                     className="p-1.5 rounded-lg hover:bg-gray-100 text-gray-500"
